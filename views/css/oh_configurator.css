@@ -1,0 +1,1005 @@
+/************************/
+/* CONFIGURATOR CONTENT */
+/***** MOBILE FIRST *****/
+/************************/
+
+#module-oh_configurator-home .cp-popup.cp-popup-visible,
+#module-oh_configurator-home .cp-popup-overlay {
+  display:none!important;
+}
+
+#module-oh_configurator-home #cbp-hrmenu {
+  display: none;
+}
+
+#ps-shoppingcart {
+  display: block!important;
+}
+
+.calltoaction-container {
+  display : flex;
+  width: 100%;
+  background: var(--endeavour-blue-2c52a0) 0% 0% no-repeat padding-box;
+  background: #2C52A0 0% 0% no-repeat padding-box;
+  box-shadow: 10px 10px 50px #2C52A04B;
+  border-radius: 18px;
+  opacity: 1;
+  margin-top: 75px;
+}
+
+.calltoaction-container div {
+  -ms-align-self: center;
+  align-self: center;
+}
+
+.calltoaction-container .colimg {
+  width: 25%;
+  text-align: center;
+}
+
+.calltoaction-container .colbutton {
+  text-align: center;
+  width: 20%;
+}
+
+.calltoaction-container .colbutton a{
+  width: 209px;
+  height: 59px;
+  border: 0px;
+  padding: 20px 55px 30px 55px;
+  color: rgba(0,0,0,0)!important;
+  cursor: pointer;
+  background-color: none;
+background: transparent url('https://www.laboutiqueapierrot.com/img/cms/btn_funny_shape.png') 0% 0% no-repeat padding-box;
+}
+
+.calltoaction-container .coltitle {
+  color: #FFF;
+    width: 60%;
+    padding-top: 30px;
+    padding-bottom: 0px;
+    padding-left: 50px;
+}
+
+.calltoaction-container .coltitle h2{
+  color: var(--white-ffffff);
+  text-align: left;
+  font: normal normal normal 30px/36px Luckiest Guy;
+  letter-spacing: 0.9px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  opacity: 1;
+}
+
+.calltoaction-container .coltitle p{
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--white-ffffff);
+  text-align: left;
+  font: normal normal 600 16px/24px Montserrat;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 0.56;
+}
+
+
+.configurator-options .config-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.configurator-options .config-space-around {
+  justify-content: space-around;
+}
+
+.configurator-options {
+  margin: 2em 1em 0 1em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.configurator-options .config-option {
+  margin-bottom: 44px;
+  min-width: 342px;
+  max-width: 410px;
+  width: 100%;
+}
+
+.configurator-options .option-header {
+  max-height: 57px;
+  height: 57px;
+  width: 100%;
+  background-color: #2c52a0;
+  position: relative;
+  border-radius: 18px 18px 0 0;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.configurator-options .option-title p {
+  font-size: 15px;
+  font-family: "montserrat";
+  margin-bottom: 0;
+  margin-left: 90px;
+}
+
+.configurator-options .round {
+  position: absolute;
+  top: -17%;
+  left: 3%;
+  border-radius: 50%;
+  width: 74px;
+  height: 75px;
+  background-color: #f3a1ae;
+  font-family: "Luckiest Guy";
+}
+
+.configurator-options .relative-round {
+  position: relative;
+}
+
+.configurator-options .first-part {
+  position: absolute;
+  font-size: 70px;
+}
+
+.configurator-options .opt-1 .first-part {
+  top: 38px;
+  left: 32%;
+}
+
+.configurator-options .opt-2 .first-part {
+  top: 37px;
+  left: 28%;
+}
+
+.configurator-options .opt-3 .first-part {
+  top: 38px;
+  left: 28%;
+}
+
+.configurator-options .opt-4 .first-part {
+  top: 40px;
+  left: 24%;
+}
+
+.configurator-options .opt-5 .first-part {
+  top: 39px;
+  left: 27%;
+}
+
+.configurator-options .opt-6 .first-part {
+  top: 38px;
+  left: 22%;
+}
+
+.configurator-options .middle {
+  width: 100%;
+}
+
+.configurator-options .option-content {
+  height: 257px;
+  background-color: #e8edf5;
+  width: 100%;
+  border-radius: 0 0 18px 18px;
+}
+
+.configurator-options .opt-4 .option-content,
+.configurator-options .opt-5 .option-content {
+  height: 350px;
+}
+
+/********************************/
+/* CONFIGURATOR OPTION 1, 4 & 5 */
+/********************************/
+
+.configurator-options .material {
+  padding: 2.5em 1em 30px 1em;
+}
+
+.configurator-options .material label,
+.configurator-options .recto-verso label {
+  margin: 0;
+  height: 48px;
+}
+
+.configurator-options .opt-1 input[type="radio"],
+.configurator-options .opt-4 input[type="radio"],
+.configurator-options .opt-5 input[type="radio"] {
+  display: none;
+}
+
+.configurator-options .opt-1 input[type="radio"]:checked + .box,
+.configurator-options .opt-4 input[type="radio"]:checked + .box,
+.configurator-options .opt-5 input[type="radio"]:checked + .box {
+  background-color: #f3a1ae;
+}
+
+.configurator-options .opt-1 .box,
+.configurator-options .opt-4 .box,
+.configurator-options .opt-5 .box {
+  width: 100%;
+  height: 100%;
+  border-radius: 7px;
+  background-color: #aeebd8;
+  transition: all 200ms ease;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+}
+
+.configurator-options .opt-1 .box:hover,
+.configurator-options .opt-4 .box:hover,
+.configurator-options .opt-5 .box:hover {
+  background-color: #aeebd876;
+}
+
+.configurator-options .opt-1 .box-title,
+.configurator-options .opt-4 .box-title,
+.configurator-options .opt-5 .box-title {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: #2c52a0;
+  font-family: "montserrat";
+}
+
+/*************************/
+/* CONFIGURATOR OPTION 1 */
+/*************************/
+
+.configurator-options .opt-1 .choice-1 {
+  width: 55%;
+  max-width: 172px;
+  margin-right: 24px;
+}
+
+.configurator-options .opt-1 .choice-2 {
+  width: 39%;
+  max-width: 124px;
+}
+
+.configurator-options .opt-1 span > .popup-info {
+  display: none;
+  position: absolute;
+  top: 100%;
+  text-align: left;
+  height: fit-content;
+  background-color: #aeebd8;
+  font-weight: normal;
+  border-radius: 7px;
+  padding: 1em;
+  z-index: 10;
+}
+
+.configurator-options .choice-1 span .popup-info {
+  left: 0;
+  width: 172px;
+}
+
+.configurator-options .choice-2 span > .popup-info {
+  right: 0%;
+  width: 190px;
+}
+
+.configurator-options .opt-1 span > .popup-info p {
+  margin: 0;
+}
+
+.configurator-options .opt-1 span:hover > .popup-info {
+  display: block;
+}
+
+.configurator-options .shapes {
+  width: 100%;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.configurator-options .shape {
+  max-width: 75px;
+  height: 75px;
+  position: relative;
+}
+
+.configurator-options .shape-name {
+  margin-top: 15px;
+  text-align: center;
+  font-family: "montserrat";
+  font-weight: 600;
+}
+
+.configurator-options .shape-images {
+  cursor: pointer;
+  position: relative;
+}
+
+.configurator-options input[type="radio"] {
+  display: none;
+}
+
+.configurator-options .shape-img path {
+  fill: #7992c2;
+}
+
+.configurator-options
+  .shape
+  input[type="radio"]:checked
+  + .shape-images
+  .shape-img
+  path {
+  fill: #2c52a0;
+}
+
+.configurator-options
+  .shape
+  input[type="radio"]:checked
+  + .shape-images
+  .checked {
+  display: flex;
+}
+
+.configurator-options .checked {
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  background-color: #f3a1ae;
+  border-radius: 25px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.configurator-options .checked img {
+  width: 15px;
+  height: 15px;
+}
+
+.configurator-options .shape-1 .checked {
+  top: 30%;
+  left: 35%;
+}
+
+.configurator-options .shape-2 .checked {
+  top: 32%;
+  left: 29%;
+}
+
+.configurator-options .shape-3 .checked {
+  top: 40%;
+  left: 28%;
+}
+
+.configurator-options .shape-4 .checked {
+  top: 46%;
+  left: 32%;
+}
+
+.configurator-options .shape-5 .checked {
+  top: 75%;
+  left: 29%;
+}
+
+.configurator-options .shape-5 {
+  display: none;
+}
+/*************************/
+/* CONFIGURATOR OPTION 2 */
+/*************************/
+
+.configurator-options .all-size {
+  padding: 2em 1.3em 1.2em 0.7em;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: 600;
+}
+
+.configurator-options .size-images path {
+  fill: #7992c2;
+}
+
+.configurator-options .size input[type="radio"]:checked + .size-images path {
+  fill: #2c52a0;
+}
+
+.configurator-options
+  .size
+  input[type="radio"]:checked
+  + .size-images
+  .checked {
+  display: flex;
+}
+
+.configurator-options .size-images {
+  cursor: pointer;
+  position: relative;
+}
+
+.configurator-options .size-Petite,
+.configurator-options .size-Moyenne,
+.configurator-options .size-Grande {
+  width: fit-content;
+  height: 170px;
+}
+
+.configurator-options .size-images svg {
+  width: 100%;
+  height: fit-content;
+}
+
+.configurator-options .size-images {
+  height: fit-content;
+}
+
+.configurator-options .size-Petite .size-images {
+  width: 65px;
+}
+
+.configurator-options .size-Moyenne .size-images {
+  width: 75px;
+}
+
+.configurator-options .size-Grande .size-images {
+  width: 90px;
+}
+
+.configurator-options .size-Petite .checked {
+  top: 50%;
+  left: 28%;
+}
+
+.configurator-options .size-Moyenne .checked {
+  top: 52%;
+  left: 30%;
+}
+
+.configurator-options .size-Grande .checked {
+  top: 56%;
+  left: 34%;
+}
+
+.configurator-options .size {
+  height: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.configurator-options .size-name,
+.configurator-options .size-dimensions {
+  height: 20%;
+}
+
+/*************************/
+/* CONFIGURATOR OPTION 3 */
+/*************************/
+
+.configurator-options .opt-3 .option-content {
+  padding: 4em .2em 3em .2em;
+}
+
+.configurator-options .option-content.colors, .configurator-options .option-content.attr-colors {
+  display: flex;
+  align-items: center;
+}
+
+.configurator-options .opt-3 .color-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 360px;
+  margin: 0 auto;
+}
+
+.configurator-options .opt-3 .second-line {
+  margin-top: 4.5em;
+}
+
+.configurator-options .color-choice {
+  width: 19%;
+  height: fit-content;
+  position: relative;
+  margin: 0 1px 50px 1px;
+  display: flex;
+  justify-content: center;
+}
+
+.configurator-options .color-input {
+  width: 40px;
+  height: 40px;
+  margin: 0 auto;
+}
+
+.configurator-options .color-input label {
+  width: 100%;
+  height: 100%;
+}
+
+.configurator-options .color-circle {
+  position: relative;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+}
+
+.configurator-options .color-circle .checked {
+  top: 16%;
+  left: 16%;
+}
+
+.configurator-options
+  .color-input
+  input[type="radio"]:checked
+  + .color-circle
+  .checked {
+  display: flex;
+}
+
+.configurator-options .color-name {
+  text-align: center;
+  font-family: "montserrat";
+  font-weight: 600;
+  position: absolute;
+  width: 130%;
+  bottom: -60%;
+}
+
+/*.configurator-options .only-polie {
+  margin-top: 2em!important;
+}*/
+
+/*****************************/
+/* CONFIGURATOR OPTION 4 & 5 */
+/*****************************/
+
+.configurator-options .opt-4 .recto,
+.configurator-options .opt-5 .recto {
+  width: 45%;
+  max-width: 140px;
+  margin-right: 24px;
+}
+
+.configurator-options .opt-4 .verso,
+.configurator-options .opt-5 .verso {
+  width: 45%;
+  max-width: 140px;
+}
+
+.configurator-options .recto-verso {
+  padding: 2.5em 1em 34px 1em;
+}
+
+.configurator-options .recto-verso p {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "montserrat";
+  color: #7992c2;
+  text-align: center;
+  margin: 16px auto 0 auto;
+}
+
+/*************************/
+/* CONFIGURATOR OPTION 4 */
+/*************************/
+
+.configurator-options .opt-4 input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  min-width: 302px;
+  max-width: 384px;
+  border: 0;
+}
+
+.configurator-options .opt-4 input[type="text"]:focus {
+  border-color: #f3a1ae;
+}
+
+.configurator-options .recto-1,
+.configurator-options .recto-2,
+.configurator-options .recto-3,
+.configurator-options .verso-1,
+.configurator-options .verso-2,
+.configurator-options .verso-3 {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "montserrat";
+  color: #7992c2;
+}
+
+.configurator-options .recto-1,
+.configurator-options .verso-1 {
+  margin-bottom: 32px;
+}
+
+.configurator-options .recto-inputs,
+.configurator-options .verso-inputs {
+  padding: 0 1em;
+}
+
+.configurator-options .verso-inputs,
+.configurator-options .recto-inputs {
+  display: none;
+}
+
+.configurator-options .no-text,
+.configurator-options .size-not-selected {
+  display: none;
+  width: 90%;
+  font-size: 2em;
+  font-weight: 600;
+  font-family: "montserrat";
+  color: #7992c2;
+  text-align: center;
+  margin: auto;
+  line-height: 1.5em;
+}
+
+.configurator-options .no-text {
+  height: 100%;
+}
+
+.configurator-options .size-not-selected {
+  display:flex;
+  height: 45%;
+}
+
+/*************************/
+/* CONFIGURATOR OPTION 5 */
+/*************************/
+
+.configurator-options .opt-5 .recto-verso {
+  padding: 2.5em 1em 15px 1em;
+}
+
+.configurator-options .contractuel {
+  display: none;
+}
+
+.configurator-options .preview-img {
+  position: relative;
+}
+
+.configurator-options .opt-5 svg {
+  /*width: 300px;
+  height: 200px;*/
+  fill: #5286ab;
+}
+
+.configurator-options .preview-recto,
+.configurator-options .preview-verso {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  left: 0px!important;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Roman 3L";
+  text-align: center;
+  white-space: nowrap;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  left: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.configurator-options .preview-recto span,
+.configurator-options .preview-verso span {
+  line-height: 1;
+}
+/*.configurator-options .preview-recto-2,
+.configurator-options .preview-verso-2 {
+  margin-top: 10px;
+}*/
+/*
+.preview-os {
+  top: 41%;
+  left: 21%;
+}
+
+.preview-coeur {
+  top: 30%;
+  left: 21%;
+}
+
+.preview-rond {
+  top: 44%;
+  left: 21%;
+  font-size: 14px;
+}
+
+.preview-couronne {
+  top: 58%;
+  left: 21%;
+}*/
+
+/*************************/
+/* CONFIGURATOR OPTION 6 */
+/*************************/
+
+.configurator-options .price-container {
+  width: 100%;
+  padding-bottom: 2em;
+}
+
+.configurator-options .opt-6 .option-content {
+  height: 257px;
+}
+
+.configurator-options .price-tax {
+  width: 230px;
+  height: 100px;
+  background-color: #f3a1ae;
+  font-family: "Montserrat";
+  color: #fff;
+  border-radius: 7px;
+}
+
+.configurator-options .price-tax > div {
+  width: 100%;
+  margin-bottom: 12px;
+}
+
+.configurator-options .price-tax span {
+  display: block;
+  width: 70%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.configurator-options .price {
+  font-size: 40px;
+  font-weight: bold;
+  height: 55px;
+  line-height: 72px;
+}
+
+.configurator-options .tax {
+  height: 16px;
+  font-size: 13px;
+  text-align: right;
+}
+
+.configurator-options .opt-6 .option-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  padding-bottom: 3em;
+}
+
+.configurator-options .product-add-to-cart {
+  display: flex;
+  justify-content: center;
+}
+
+.configurator-options .col-add-qty {
+  margin-right: 10px;
+}
+
+.configurator-options .form-control, .configurator-options .form-control:focus, .configurator-options .btn-touchspin {
+  border: solid 1px #2C52A0!important;
+  color: #2C52A0!important;
+  text-align: center!important;
+}
+
+.configurator-options .btn-touchspin {
+  padding: 8px 10.5px!important;
+}
+
+.configurator-options .bootstrap-touchspin .input-group-btn-vertical .bootstrap-touchspin-down {
+  border-top-color: #2C52A0!important;
+}
+
+.configurator-options .btn-touchspin i {
+  top: 3px!important;
+  left: 4.5px!important;
+  font-size: 1.1em!important;
+}
+
+.configurator-options .btn-touchspin:hover {
+  background-color: #c6d1e8;
+}
+
+.configurator-options .add-to-cart-icon {
+  margin-right: .5em;
+}
+
+.configurator-options .add-to-cart, .configurator-options .add-custom {
+  background-color: #2C52A0;
+  display: flex;
+  font-weight: 600;
+}
+
+.configurator-options .add-to-cart:hover, .configurator-options .add-custom:hover, .configurator-options .add-to-cart:active, .configurator-options .add-custom:active, .configurator-options .add-to-cart:focus, .configurator-options .add-custom:focus {
+  background: #0062cc!important;
+}
+
+/**********************************************************/
+/**********************************************************/
+/**********                                      **********/
+/**********           RESPONSIVE PART            **********/
+/**********                                      **********/
+/**********************************************************/
+/**********************************************************/
+
+/**********************/
+/**** MOBILE FIRST ****/
+/**********************/
+
+@media screen and (min-width: 768px) {
+  .configurator-options .choice-1 span > .popup-info {
+    left: 0;
+    width: 220px;
+  }
+
+  .configurator-options .choice-2 span > .popup-info {
+    right: 0;
+    width: 264px;
+  }
+
+  .configurator-options .opt-3 .option-content {
+    padding: 4em .2em 3em .2em;
+  }
+
+  .configurator-options .recto-1,
+  .configurator-options .verso-1 {
+    margin-bottom: 16px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .configurator-options .config-option {
+    max-width: 360px;
+  }
+
+  .configurator-options .option-content {
+    height: 277px;
+  }
+
+  .configurator-options .opt-4 .option-content,
+  .configurator-options .opt-5 .option-content,
+  .configurator-options .opt-6 .option-content {
+    height: 425px;
+  }
+
+  .configurator-options .color-input {
+    width: 50px;
+    height: 50px;
+  }
+
+  .configurator-options .config-option:nth-child(odd) {
+    margin-right: 16px;
+  }
+
+  .configurator-options .color-circle .checked {
+    top: 22.5%;
+    left: 22.5%;
+  }
+
+  .configurator-options .opt-3 .second-line {
+    margin-top: 3.5em;
+  }
+
+  .configurator-options .size-Petite .checked {
+    top: 54%;
+    left: 30.5%;
+  }
+
+  .configurator-options .size-Moyenne .checked {
+    top: 61%;
+    left: 35.5%;
+  }
+
+  .configurator-options .size-Grande .checked {
+    top: 64%;
+    left: 37%;
+  }
+
+  .configurator-options .recto-verso {
+    padding: 2.5em 1em 20px 1em;
+  }
+
+  .configurator-options .recto-inputs,
+  .configurator-options .verso-inputs {
+    padding: 0 1.5em;
+  }
+
+  .configurator-options .recto-1,
+  .configurator-options .verso-1,
+  .configurator-options .recto-2,
+  .configurator-options .verso-2
+   {
+    margin-bottom: 16px;
+  }
+
+  .configurator-options .contractuel {
+    display: block;
+  }
+  .configurator-options .opt-5 .size-Petite svg {
+    height: 150px;
+  }
+  .configurator-options .opt-5 .size-Moyenne svg {
+    height: 210px;
+  }
+  .configurator-options .opt-5 .size-Grande svg {
+    height: 250px;
+  }
+/*
+  .preview-os {
+    top: 43.25%;
+    left: 25%;
+  }
+
+  .preview-coeur {
+    top: 32%;
+    left: 25%;
+  }
+
+  .preview-rond {
+    top: 48%;
+    left: 25%;
+  }
+
+  .preview-couronne {
+    top: 60%;
+    left: 25%;
+  }*/
+}
+
+@media screen and (min-width: 1000px) {
+  .configurator-options .config-option {
+    max-width: 436px;
+  }
+
+  .configurator-options .option-title p {
+    font-size: 18px;
+    margin-left: 100px;
+  }
+
+  .configurator-options .shape {
+    max-width: 85px;
+  }
+
+  .configurator-options .shape-1 .checked {
+    top: 58%;
+    left: 35%;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .configurator-options .config-option {
+    max-width: 400px;
+  }
+
+  .configurator-options .config-option {
+    margin-right: 16px;
+  }
+
+  .configurator-options .config-option:nth-child(0n + 3),
+  .configurator-options .config-option:nth-child(0n + 6) {
+    margin-right: 0;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .configurator-options .config-option {
+    max-width: 436px;
+  }
+}

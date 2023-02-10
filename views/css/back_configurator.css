@@ -1,0 +1,111 @@
+.flex {
+    display: flex;
+}
+
+.items-center {
+    display: flex;
+    align-items: center;
+}
+
+#configuration-options input[type="checkbox"] {
+    cursor: pointer;
+    height: 18px;
+    width: 18px;
+    margin: 0;
+}
+
+#configuration-options label {
+    margin: 0;
+}
+
+#configuration-options h3 {
+    margin: 0!important;
+    font-size: 21px!important;
+    padding: 0!important;
+    border: 0!important;
+}
+
+#configuration-options .material-choice {
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#configuration-options .material-choice label {
+    margin-left: .5em;
+    font-size: 1.1em;
+}
+
+#configuration-options .material-choice input, #options-configurator .material-choice label {
+    cursor: pointer;
+}
+
+/* #configuration-options .product-list {
+    display: none;
+} */
+
+#configuration-options .add-products {
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 5px 16px;
+    height: 32px;
+    min-width: 60px;
+    min-height: 32px;
+    border: none;
+    color: #fff;
+    background-color: rgb(88, 101, 242);
+    transition: background-color .17s ease,color .17s ease;
+    margin-top: .5em;
+}
+
+#configuration-options .add-products:hover {
+    background-color: rgb(71, 82, 196);
+}
+
+#configuration-options .material-product-select {
+    padding: 1em 1.5em;
+    border-radius: 10px;
+    background-color: #a9cce3;
+    margin: 1em 0;
+}
+
+#configuration-options .product-select-name {
+    text-align: center;
+    margin: .5em 0;
+    color: #ff4f33;
+}
+
+#configuration-options .product-select-name span {
+    border: solid 2px #ff4f33;
+    padding: .2em;
+}
+
+#configuration-options .product-options {
+    padding: 0 1em .5em 1em;
+    border-radius: 10px;
+    background-color: #7fb3d5;
+}
+
+#configuration-options  .product-attributes {
+    margin-left: .5em;
+}
+
+#configuration-options .product-option-recto-verso {
+    margin: .6em 0;
+}
+
+#configuration-options .recto-verso-line:first-child {
+    margin-bottom: .4em;
+}
+
+#configuration-options .recto-verso-line input[type="number"] {
+    width: 50px;
+    text-align: center;
+}
+
+#configuration-options .recto-verso-separator {
+    margin: 0 1em;
+}

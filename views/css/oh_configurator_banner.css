@@ -1,0 +1,399 @@
+/***********************/
+/* CONFIGURATOR BANNER */
+/**** DESKTOP FIRST ****/
+/***********************/
+
+.banner-desc {
+  background-color: #aeebd8;
+  border-radius: 18px;
+  padding: 1em;
+  font-family: "Luckiest Guy";
+  margin: auto;
+  max-width: 1340px;
+}
+
+.banner-desc .right-part {
+  display: flex;
+}
+
+.banner-desc .title-desc {
+  padding-left: 0.4em;
+}
+
+.banner-desc .title-desc h3 {
+  font-size: 22px;
+}
+
+.banner-desc .title-desc h3,
+.banner-desc .title-desc h1 {
+  width: 98%;
+  height: fit-content;
+  margin: 0 1em 0 0;
+}
+
+.banner-desc .title-desc h1 {
+  font-size: 50px;
+  margin-top: 0.3em;
+}
+
+.banner-desc .title-desc,
+.banner-desc .right-part {
+  width: 50%;
+  margin: auto;
+}
+
+.banner-desc .framed {
+  border-radius: 16px;
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 10px 15px;
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.banner-desc .frame-content {
+  min-width: 76%;
+  width: 76%;
+}
+
+.banner-desc .frame-img {
+  min-width: 24%;
+  width: 24%;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 0;
+}
+
+.banner-desc .frame-img img {
+  width: 100%;
+}
+
+.banner-desc .right-part .images {
+  width: 30%;
+  position: relative;
+}
+
+.banner-desc .second-desc {
+  position: relative;
+}
+
+.banner-desc .second-desc .desc {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.banner-desc .first-desc,
+.banner-desc .second-desc .desc-2 {
+  width: 100%;
+}
+
+.banner-desc .first-desc h3,
+.banner-desc .second-desc .desc-2 {
+  font-size: 22px;
+}
+
+.banner-desc .second-desc .desc-1 {
+  font-size: 30px;
+  width: 100%;
+}
+
+.banner-desc .second-desc .desc-3 {
+  font-size: 10px;
+  width: 100%;
+  font-family: "montserrat";
+  font-weight: 600;
+}
+
+.banner-desc .second-desc .round {
+  position: absolute;
+  top: -8px;
+  right: 50px;
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+  background-color: #f3a1ae;
+}
+
+.banner-desc .images .img-chat {
+  position: absolute;
+  bottom: 0;
+  left: 65%;
+}
+
+.banner-desc .images .img-chien {
+  position: absolute;
+  top: 0;
+  left: 20%;
+}
+
+.banner-desc .relative-round {
+  position: relative;
+}
+
+.banner-desc .first-part {
+  position: absolute;
+  top: 34px;
+  left: 10%;
+  font-size: 50px;
+  letter-spacing: 1.59px;
+}
+
+.banner-desc .second-part-upper {
+  position: absolute;
+  top: 22px;
+  left: 50%;
+  font-size: 22px;
+  letter-spacing: 0.93px;
+}
+
+.banner-desc .second-part-lower {
+  position: absolute;
+  top: 42px;
+  left: 50%;
+  font-size: 30px;
+}
+
+/**********************************************************/
+/**********************************************************/
+/**********                                      **********/
+/**********           RESPONSIVE PART            **********/
+/**********                                      **********/
+/**********************************************************/
+/**********************************************************/
+
+/**********************/
+/***  DESKTOP FIRST ***/
+/**********************/
+
+@media screen and (max-width: 1320px) {
+  .banner-desc .second-desc .round {
+    right: 6%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .banner-desc .frame-content {
+    min-width: 76%;
+    width: 76%;
+  }
+
+  .banner-desc .frame-img {
+    min-width: 24%;
+    width: 24%;
+  }
+
+  .banner-desc .second-desc .round {
+    right: 4%;
+  }
+
+  .banner-desc .frame-img {
+    margin-bottom: 0.5em;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .banner-desc .framed {
+    position: relative;
+  }
+
+  .banner-desc .second-desc .round {
+    right: 24.5%;
+    z-index: 5;
+  }
+
+  .banner-desc .frame-img {
+    position: absolute;
+    bottom: 2%;
+    right: 6%;
+  }
+
+  .banner-desc .right-part .images {
+    display: none;
+  }
+
+  .banner-desc .title-desc {
+    width: 55%;
+  }
+
+  .banner-desc .right-part {
+    width: 45%;
+  }
+
+  .banner-desc .framed {
+    width: 100%;
+  }
+
+  .banner-desc .title-desc h3 {
+    font-size: 20px;
+  }
+
+  .banner-desc .frame-content {
+    min-width: 100%;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .banner-desc {
+    padding: 0.5em;
+  }
+
+  .banner-desc .title-desc h1 {
+    font-size: 36px;
+  }
+
+  .banner-desc .second-desc .round {
+    top: -12%;
+    right: 15%;
+  }
+
+  .banner-desc .frame-img {
+    bottom: 3%;
+    right: 0;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .banner-desc .title-desc h1 {
+    font-size: 34px;
+  }
+
+  .banner-desc .title-desc h3 {
+    font-size: 20px;
+  }
+
+  .banner-desc .first-desc h3 {
+    font-size: 18px;
+    margin-bottom: 1em;
+  }
+
+  .banner-desc .second-desc .desc-1 {
+    font-size: 26px;
+  }
+
+  .banner-desc .second-desc .round {
+    top: -25%;
+    right: 0;
+  }
+
+  .banner-desc .frame-img {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .banner-desc {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    padding: 1em;
+  }
+
+  .banner-desc .title-desc {
+    padding: 0;
+  }
+
+  .banner-desc .title-desc h3,
+  .banner-desc .title-desc h1 {
+    font-size: 20px;
+    margin-top: 0;
+    text-align: center;
+  }
+
+  .banner-desc .right-part {
+    margin-top: 1em;
+  }
+
+  .banner-desc .title-desc,
+  .banner-desc .right-part {
+    width: 95%;
+  }
+
+  .banner-desc .frame-content {
+    min-width: 420px;
+    width: 420px;
+    margin: 0 auto;
+  }
+
+  .banner-desc .second-desc .round {
+    top: -25%;
+    right: 36%;
+  }
+
+  .banner-desc .frame-img {
+    display: block;
+    bottom: 0%;
+    right: 6%;
+  }
+
+  .banner-desc .frame-img img {
+    width: 90%;
+    min-width: 100px;
+  }
+
+  .banner-desc .first-desc {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .banner-desc {
+    width: 100%;
+  }
+
+  .banner-desc .title-desc,
+  .banner-desc .right-part {
+    width: 100%;
+  }
+
+  .banner-desc .title-desc h3,
+  .banner-desc .title-desc h1 {
+    width: 100%;
+  }
+
+  .banner-desc .first-desc h3 {
+    font-size: 18px;
+  }
+
+  .banner-desc .second-desc .desc-1 {
+    font-size: 18px;
+  }
+
+  .banner-desc .second-desc .desc-2 {
+    font-size: 14px;
+  }
+
+  .banner-desc .frame-img img {
+    width: 90%;
+    min-width: 92px;
+  }
+
+  .banner-desc .frame-content {
+    min-width: 300px;
+    width: 360px;
+  }
+
+  .banner-desc .second-desc .round {
+    right: 22%;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .banner-desc .second-desc .round {
+    right: 24%;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .banner-desc .frame-img {
+    bottom: 2%;
+    right: 6%;
+  }
+
+  .banner-desc .second-desc .round {
+    right: 30%;
+  }
+}
